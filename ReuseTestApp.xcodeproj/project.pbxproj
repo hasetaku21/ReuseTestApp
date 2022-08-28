@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00895DC028AFBAC10062262C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DBF28AFBAC10062262C /* AppDelegate.swift */; };
+		00895DC228AFBAC10062262C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DC128AFBAC10062262C /* SceneDelegate.swift */; };
+		00895DC428AFBAC10062262C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DC328AFBAC10062262C /* ViewController.swift */; };
+		00895DC728AFBAC10062262C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00895DC528AFBAC10062262C /* Main.storyboard */; };
+		00895DC928AFBAC90062262C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00895DC828AFBAC90062262C /* Assets.xcassets */; };
+		00895DCC28AFBAC90062262C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00895DCA28AFBAC90062262C /* LaunchScreen.storyboard */; };
+		00895DD428AFBC730062262C /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DD328AFBC730062262C /* QuizViewController.swift */; };
+		00895DD628AFBD210062262C /* ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DD528AFBD210062262C /* ScoreViewController.swift */; };
+		00895DD828AFC5E10062262C /* quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 00895DD728AFC5E10062262C /* quiz.csv */; };
+		00895DE028B1D2230062262C /* correct.png in Resources */ = {isa = PBXBuildFile; fileRef = 00895DDE28B1D2230062262C /* correct.png */; };
+		00895DE128B1D2230062262C /* incorrect.png in Resources */ = {isa = PBXBuildFile; fileRef = 00895DDF28B1D2230062262C /* incorrect.png */; };
+		00895DE328B209CE0062262C /* Chapter1Quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 00895DE228B209CE0062262C /* Chapter1Quiz.csv */; };
+		00895DE728B2118C0062262C /* Chapter1QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DE628B2118C0062262C /* Chapter1QuizViewController.swift */; };
+		00895DE928B215720062262C /* Chapter1ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DE828B215720062262C /* Chapter1ScoreViewController.swift */; };
+		00895DEB28B217AC0062262C /* Chapter2Quiz.csv in Resources */ = {isa = PBXBuildFile; fileRef = 00895DEA28B217AC0062262C /* Chapter2Quiz.csv */; };
+		00895DED28B21F4A0062262C /* Chapter2QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DEC28B21F4A0062262C /* Chapter2QuizViewController.swift */; };
+		00895DEF28B224200062262C /* Chapter2ScoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DEE28B224200062262C /* Chapter2ScoreViewController.swift */; };
+		00895DF128B22B610062262C /* ChapterSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00895DF028B22B610062262C /* ChapterSelectViewController.swift */; };
+		00895DF328B22E700062262C /* 38350-reduce-reuse-recycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 00895DF228B22E700062262C /* 38350-reduce-reuse-recycle.json */; };
+		00895DF528B249810062262C /* 74116-best.json in Resources */ = {isa = PBXBuildFile; fileRef = 00895DF428B2497F0062262C /* 74116-best.json */; };
+		7DB5DCD88A1135396FCE4299 /* Pods_ReuseTestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4A7B476DFF3D57A8C865A6E /* Pods_ReuseTestApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00895DBC28AFBAC10062262C /* ReuseTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReuseTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		00895DBF28AFBAC10062262C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		00895DC128AFBAC10062262C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		00895DC328AFBAC10062262C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		00895DC628AFBAC10062262C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00895DC828AFBAC90062262C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00895DCB28AFBAC90062262C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00895DCD28AFBAC90062262C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00895DD328AFBC730062262C /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		00895DD528AFBD210062262C /* ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewController.swift; sourceTree = "<group>"; };
+		00895DD728AFC5E10062262C /* quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = quiz.csv; sourceTree = "<group>"; };
+		00895DDE28B1D2230062262C /* correct.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = correct.png; sourceTree = "<group>"; };
+		00895DDF28B1D2230062262C /* incorrect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = incorrect.png; sourceTree = "<group>"; };
+		00895DE228B209CE0062262C /* Chapter1Quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chapter1Quiz.csv; sourceTree = "<group>"; };
+		00895DE628B2118C0062262C /* Chapter1QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1QuizViewController.swift; sourceTree = "<group>"; };
+		00895DE828B215720062262C /* Chapter1ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter1ScoreViewController.swift; sourceTree = "<group>"; };
+		00895DEA28B217AC0062262C /* Chapter2Quiz.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = Chapter2Quiz.csv; sourceTree = "<group>"; };
+		00895DEC28B21F4A0062262C /* Chapter2QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2QuizViewController.swift; sourceTree = "<group>"; };
+		00895DEE28B224200062262C /* Chapter2ScoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter2ScoreViewController.swift; sourceTree = "<group>"; };
+		00895DF028B22B610062262C /* ChapterSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChapterSelectViewController.swift; sourceTree = "<group>"; };
+		00895DF228B22E700062262C /* 38350-reduce-reuse-recycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "38350-reduce-reuse-recycle.json"; sourceTree = "<group>"; };
+		00895DF428B2497F0062262C /* 74116-best.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "74116-best.json"; sourceTree = "<group>"; };
+		479EDA6837F6E482E2D50FE0 /* Pods-ReuseTestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseTestApp.release.xcconfig"; path = "Target Support Files/Pods-ReuseTestApp/Pods-ReuseTestApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F8459D833671FFED18D7235 /* Pods-ReuseTestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReuseTestApp.debug.xcconfig"; path = "Target Support Files/Pods-ReuseTestApp/Pods-ReuseTestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D4A7B476DFF3D57A8C865A6E /* Pods_ReuseTestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReuseTestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00895DB928AFBAC10062262C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DB5DCD88A1135396FCE4299 /* Pods_ReuseTestApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00895DB328AFBAC10062262C = {
+			isa = PBXGroup;
+			children = (
+				00895DBE28AFBAC10062262C /* ReuseTestApp */,
+				00895DBD28AFBAC10062262C /* Products */,
+				494E1D7C84E1BF196483E0CC /* Pods */,
+				73792B04F46A4DF8FF94F6ED /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		00895DBD28AFBAC10062262C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00895DBC28AFBAC10062262C /* ReuseTestApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00895DBE28AFBAC10062262C /* ReuseTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				00895DBF28AFBAC10062262C /* AppDelegate.swift */,
+				00895DC128AFBAC10062262C /* SceneDelegate.swift */,
+				00895DC328AFBAC10062262C /* ViewController.swift */,
+				00895DC528AFBAC10062262C /* Main.storyboard */,
+				00895DD728AFC5E10062262C /* quiz.csv */,
+				00895DE228B209CE0062262C /* Chapter1Quiz.csv */,
+				00895DEA28B217AC0062262C /* Chapter2Quiz.csv */,
+				00895DD328AFBC730062262C /* QuizViewController.swift */,
+				00895DD528AFBD210062262C /* ScoreViewController.swift */,
+				00895DF028B22B610062262C /* ChapterSelectViewController.swift */,
+				00895DE628B2118C0062262C /* Chapter1QuizViewController.swift */,
+				00895DE828B215720062262C /* Chapter1ScoreViewController.swift */,
+				00895DEC28B21F4A0062262C /* Chapter2QuizViewController.swift */,
+				00895DEE28B224200062262C /* Chapter2ScoreViewController.swift */,
+				00895DF428B2497F0062262C /* 74116-best.json */,
+				00895DF228B22E700062262C /* 38350-reduce-reuse-recycle.json */,
+				00895DDD28B1D2230062262C /* image */,
+				00895DC828AFBAC90062262C /* Assets.xcassets */,
+				00895DCA28AFBAC90062262C /* LaunchScreen.storyboard */,
+				00895DCD28AFBAC90062262C /* Info.plist */,
+			);
+			path = ReuseTestApp;
+			sourceTree = "<group>";
+		};
+		00895DDD28B1D2230062262C /* image */ = {
+			isa = PBXGroup;
+			children = (
+				00895DDE28B1D2230062262C /* correct.png */,
+				00895DDF28B1D2230062262C /* incorrect.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		494E1D7C84E1BF196483E0CC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F8459D833671FFED18D7235 /* Pods-ReuseTestApp.debug.xcconfig */,
+				479EDA6837F6E482E2D50FE0 /* Pods-ReuseTestApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		73792B04F46A4DF8FF94F6ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4A7B476DFF3D57A8C865A6E /* Pods_ReuseTestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00895DBB28AFBAC10062262C /* ReuseTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00895DD028AFBAC90062262C /* Build configuration list for PBXNativeTarget "ReuseTestApp" */;
+			buildPhases = (
+				C9905225BB415D242C41D6D0 /* [CP] Check Pods Manifest.lock */,
+				00895DB828AFBAC10062262C /* Sources */,
+				00895DB928AFBAC10062262C /* Frameworks */,
+				00895DBA28AFBAC10062262C /* Resources */,
+				E4AADBE34702D4AB69EBEDA1 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReuseTestApp;
+			productName = ReuseTestApp;
+			productReference = 00895DBC28AFBAC10062262C /* ReuseTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00895DB428AFBAC10062262C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					00895DBB28AFBAC10062262C = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 00895DB728AFBAC10062262C /* Build configuration list for PBXProject "ReuseTestApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00895DB328AFBAC10062262C;
+			productRefGroup = 00895DBD28AFBAC10062262C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00895DBB28AFBAC10062262C /* ReuseTestApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00895DBA28AFBAC10062262C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00895DF328B22E700062262C /* 38350-reduce-reuse-recycle.json in Resources */,
+				00895DE028B1D2230062262C /* correct.png in Resources */,
+				00895DE128B1D2230062262C /* incorrect.png in Resources */,
+				00895DCC28AFBAC90062262C /* LaunchScreen.storyboard in Resources */,
+				00895DC928AFBAC90062262C /* Assets.xcassets in Resources */,
+				00895DEB28B217AC0062262C /* Chapter2Quiz.csv in Resources */,
+				00895DE328B209CE0062262C /* Chapter1Quiz.csv in Resources */,
+				00895DC728AFBAC10062262C /* Main.storyboard in Resources */,
+				00895DD828AFC5E10062262C /* quiz.csv in Resources */,
+				00895DF528B249810062262C /* 74116-best.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C9905225BB415D242C41D6D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReuseTestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AADBE34702D4AB69EBEDA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReuseTestApp/Pods-ReuseTestApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReuseTestApp/Pods-ReuseTestApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReuseTestApp/Pods-ReuseTestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00895DB828AFBAC10062262C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00895DED28B21F4A0062262C /* Chapter2QuizViewController.swift in Sources */,
+				00895DE728B2118C0062262C /* Chapter1QuizViewController.swift in Sources */,
+				00895DC428AFBAC10062262C /* ViewController.swift in Sources */,
+				00895DE928B215720062262C /* Chapter1ScoreViewController.swift in Sources */,
+				00895DC028AFBAC10062262C /* AppDelegate.swift in Sources */,
+				00895DD628AFBD210062262C /* ScoreViewController.swift in Sources */,
+				00895DC228AFBAC10062262C /* SceneDelegate.swift in Sources */,
+				00895DD428AFBC730062262C /* QuizViewController.swift in Sources */,
+				00895DF128B22B610062262C /* ChapterSelectViewController.swift in Sources */,
+				00895DEF28B224200062262C /* Chapter2ScoreViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00895DC528AFBAC10062262C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00895DC628AFBAC10062262C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00895DCA28AFBAC90062262C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00895DCB28AFBAC90062262C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00895DCE28AFBAC90062262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		00895DCF28AFBAC90062262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00895DD128AFBAC90062262C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F8459D833671FFED18D7235 /* Pods-ReuseTestApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReuseTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evertonianTaku.ReuseTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00895DD228AFBAC90062262C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479EDA6837F6E482E2D50FE0 /* Pods-ReuseTestApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ReuseTestApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.evertonianTaku.ReuseTestApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00895DB728AFBAC10062262C /* Build configuration list for PBXProject "ReuseTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00895DCE28AFBAC90062262C /* Debug */,
+				00895DCF28AFBAC90062262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00895DD028AFBAC90062262C /* Build configuration list for PBXNativeTarget "ReuseTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00895DD128AFBAC90062262C /* Debug */,
+				00895DD228AFBAC90062262C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00895DB428AFBAC10062262C /* Project object */;
+}

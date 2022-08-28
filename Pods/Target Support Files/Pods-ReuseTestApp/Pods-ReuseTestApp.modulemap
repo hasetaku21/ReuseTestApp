@@ -1,0 +1,6 @@
+framework module Pods_ReuseTestApp {
+  umbrella header "Pods-ReuseTestApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
